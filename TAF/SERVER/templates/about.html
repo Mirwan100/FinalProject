@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Simple Sidebar - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .img-container {
+        text-align: center;
+      }
+	  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+    </style>
+  <!-- Custom styles for this template -->
+  <link href="static\css\simple-sidebar.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <center><div class="sidebar-heading"><b>Used Car Prediction</b> </div></center>
+      <div class="list-group list-group-flush">
+        <a href="/" class="list-group-item list-group-item-action bg-light">Home</a>
+
+        <a href="/visualization" class="list-group-item list-group-item-action bg-light">Data Visulization</a>
+        <a href="/about" class="list-group-item list-group-item-action bg-light">About</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+
+ <div class="img-container"> <!-- Block parent element -->
+      <img src="static\mobil.jpg"  class="center">
+    </div>
+
+      </nav>
+
+      <div class="container-fluid">
+	  <br>
+	  <br>
+	  <br>
+	  	  <br>
+
+	  
+<b>
+<p> 
+
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspThis application was made by Mirwan as part of the final project at Purwadhika Coding School. The purpose of making this application is to predict the price of a used car based on the features of the band, model, year, milage, transmission, location, and body type of the car to be sold. This application uses the Random Forest Regressor algorithm which is trained using a dataset of 80000 car sales history, the data is collected by Remko Weingarten and uploaded on atapdata.ai on 20-07-2020 for predictive analysis purposes.</p></b>
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>

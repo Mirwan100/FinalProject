@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Simple Sidebar - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css"" rel="stylesheet">
+    <style>
+      .img-container {
+        text-align: center;
+      }
+	  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+    </style>
+  <!-- Custom styles for this template -->
+  <link href="static\css\simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <center><div class="sidebar-heading"><b>Used Car Prediction</b> </div></center>
+      <div class="list-group list-group-flush">
+        <a href="/" class="list-group-item list-group-item-action bg-light">Home</a>
+
+        <a href="/visualization" class="list-group-item list-group-item-action bg-light">Data Visulization</a>
+        <a href="/about" class="list-group-item list-group-item-action bg-light">About</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+
+ <div class="img-container"> <!-- Block parent element -->
+      <img src="static\mobil.jpg"  class="center">
+    </div>
+
+      </nav>
+
+      <div class="container-fluid">
+        <h1 class="mt-4"><center>Dashboard</center></h1>
+        <center><p>This project is  an application to predict used car's price.</p></center>
+        <center><p>The project is a final project at Data Science Program in Purwadhika Startup & Coding School.</p></center>
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>

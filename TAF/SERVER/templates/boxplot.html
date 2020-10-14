@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Simple Sidebar - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .img-container {
+        text-align: center;
+      }
+	  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+    </style>
+  <!-- Custom styles for this template -->
+  <link href="static\css\simple-sidebar.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <center><div class="sidebar-heading"><b>Used Car Prediction</b> </div></center>
+      <div class="list-group list-group-flush">
+        <a href="/" class="list-group-item list-group-item-action bg-light">Home</a>
+
+        <a href="/visualization" class="list-group-item list-group-item-action bg-light">Data Visulization</a>
+        <a href="/about" class="list-group-item list-group-item-action bg-light">About</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+
+ <div class="img-container"> <!-- Block parent element -->
+      <img src="static\mobil.jpg"  class="center">
+    </div>
+
+      </nav>
+
+      <div class="container-fluid">
+	  <br>
+	  <br>
+
+
+
+	  
+<b>
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item font-weight-bold">
+                <a class="nav-link text-dark lead" href="/histogram">Frequent Values</a>
+            </li>
+            <li class="nav-item font-weight-bold">
+                <a class="nav-link text-dark lead" href="/boxplot">Boxplot</a>
+            </li>
+            <li class="nav-item font-weight-bold">
+                <a class="nav-link text-dark lead" href="/average">Average Price of Features</a>
+            </li>   
+			<br>
+			<br>
+<div class="row">
+  <div class="column">
+    <img src="\static\milage_bp.jpg" alt="milage_bp" style="width:80%">
+  </div>
+  <div class="column">
+    <img src="\static\price_bp.jpg" alt="price_bp" style="width:80%">
+  </div>
+</div>
+  <br>
+  
+ <div class="row">
+  <div class="column">
+    <img src="\static\seating_bp.jpg" alt="bp1" style="width:80%">
+  </div>
+  <div class="column">
+    <img src="\static\year_bp.jpg" alt="bp2" style="width:80%">
+  </div>
+</div>
+  <br>
+
+</div>
+  <br>  
+  
+	
+			
+			</div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>
